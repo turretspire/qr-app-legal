@@ -6,36 +6,64 @@
   <title>QR Code Scanner & Generator</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background: linear-gradient(to right, #f9f9f9, #e1f5fe);
       color: #333;
     }
     .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px 20px;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 40px;
       background: white;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
     }
     .app-icon {
       display: block;
       margin: 0 auto 20px;
       width: 120px;
       height: 120px;
-      border-radius: 20px;
+      border-radius: 24px;
     }
     h1, h2 {
       text-align: center;
-      margin-bottom: 10px;
-    }
-    p {
-      line-height: 1.6;
       margin-bottom: 16px;
     }
+    h1 {
+      font-size: 2.5em;
+    }
+    h2 {
+      font-size: 1.5em;
+      color: #007acc;
+    }
+    p, ul {
+      font-size: 1.1em;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
     .section {
-      margin-top: 30px;
+      margin-top: 40px;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .cta a {
+      background-color: #007acc;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background-color: #005fa3;
     }
   </style>
 </head>
@@ -43,27 +71,38 @@
   <div class="container">
     <img src="app-icon.png" alt="App Icon" class="app-icon">
     <h1>QR Code Scanner & Generator</h1>
-    <h2>Fast, Simple, Powerful</h2>
+    <h2>Your All-in-One QR Toolkit</h2>
+
+    <p>Discover a fast, powerful, and beautifully designed app for scanning and creating QR codes and barcodes. Whether you're looking to share contact details, connect to Wi-Fi, or get instant product information, this app delivers a seamless experience with precision and speed.</p>
 
     <div class="section">
       <h2>📲 Key Features</h2>
       <ul>
-        <li>Create QR codes from text, URLs, emails, SMS, Wi-Fi, and locations</li>
-        <li>Scan QR codes and barcodes instantly</li>
-        <li>Display scan results in a clean, readable format</li>
-        <li>Get product information when scanning barcodes</li>
-        <li>Ad-free experience and unlimited scans with premium</li>
+        <li>Create QR codes from templates: Text, URL, Email, SMS, Wi-Fi, Location, and more</li>
+        <li>Scan all QR code formats and barcodes with lightning-fast recognition</li>
+        <li>Instantly view scan results in a clean and intuitive screen</li>
+        <li>Retrieve product information when scanning supported barcodes</li>
+        <li>Support for dark mode and optimized for all iPhone models</li>
       </ul>
     </div>
 
     <div class="section">
-      <h2>🔓 Premium Benefits</h2>
-      <p>Upgrade to premium to enjoy an ad-free experience, unlimited scans, and access to all advanced features. Perfect for frequent users and professionals.</p>
+      <h2>🔓 Premium Experience</h2>
+      <p>Upgrade to premium to unlock unlimited scans, access all advanced features, and remove all ads. Ideal for professionals, retailers, or anyone who frequently relies on scanning and creating QR codes.</p>
+    </div>
+
+    <div class="section">
+      <h2>🎯 Why Choose Us?</h2>
+      <p>This app is built with user-first principles: fast, efficient, secure, and easy to use. We respect your privacy—no unnecessary data collection, and no bloat. Just the tools you need to get the job done quickly and accurately.</p>
     </div>
 
     <div class="section">
       <h2>📦 Lightweight & Private</h2>
-      <p>Our app is fast, lightweight, and respects your privacy. No unnecessary permissions or data collection—just the functionality you need.</p>
+      <p>Designed to be fast and efficient, our app doesn't collect or store personal data. It runs smoothly even on older devices and requires only essential permissions.</p>
+    </div>
+
+    <div class="cta">
+      <a href="#">Download Now on the App Store</a>
     </div>
   </div>
 </body>
