@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Scanner & Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .app-icon {
+      display: block;
+      margin: 0 auto 20px;
+      width: 120px;
+      height: 120px;
+      border-radius: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    p {
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .section {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="app-icon.png" alt="App Icon" class="app-icon">
+    <h1>QR Code Scanner & Generator</h1>
+    <h2>Fast, Simple, Powerful</h2>
+
+    <div class="section">
+      <h2>📲 Key Features</h2>
+      <ul>
+        <li>Create QR codes from text, URLs, emails, SMS, Wi-Fi, and locations</li>
+        <li>Scan QR codes and barcodes instantly</li>
+        <li>Display scan results in a clean, readable format</li>
+        <li>Get product information when scanning barcodes</li>
+        <li>Ad-free experience and unlimited scans with premium</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🔓 Premium Benefits</h2>
+      <p>Upgrade to premium to enjoy an ad-free experience, unlimited scans, and access to all advanced features. Perfect for frequent users and professionals.</p>
+    </div>
+
+    <div class="section">
+      <h2>📦 Lightweight & Private</h2>
+      <p>Our app is fast, lightweight, and respects your privacy. No unnecessary permissions or data collection—just the functionality you need.</p>
+    </div>
+  </div>
+</body>
+</html>
