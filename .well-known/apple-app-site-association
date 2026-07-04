@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["83QVRG47NJ.com.turretspire.qrcode.scanner.creator"],
+        "components": [
+          { "/": "/scan" }
+        ]
+      }
+    ]
+  }
+}
